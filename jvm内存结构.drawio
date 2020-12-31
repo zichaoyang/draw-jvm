@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T02:01:20.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" version="14.1.4" etag="4arRQM-5fQ0aYEhtjjHi" type="github"><diagram id="7b-X4rRAnpo0ZmT601iK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-31T03:17:06.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="J7L8LOOVUu8Ty_WHycdK" version="14.1.4" type="github">
+  <diagram id="7b-X4rRAnpo0ZmT601iK" name="第 1 页">
+    <mxGraphModel dx="945" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5uHw69AyfgSYUzVDefGn-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="560" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-3" value="方法区&lt;br&gt;Method Area" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-4" value="堆&lt;br&gt;head" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-5" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-6" value="虚拟机栈" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-8" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-11" value="执行引擎" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-12" value="本地方法接口" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="390" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-13" value="本地方法库" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="600" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-14" value="运行时数据区(Runtime Data Area)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-17" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="506.25" width="60" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-18" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="507.5" width="60" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-20" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="650" as="sourcePoint" />
+            <mxPoint x="380" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-21" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="615" as="sourcePoint" />
+            <mxPoint x="320" y="614.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-22" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="394" y="511.25" width="36" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-23" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;shadow=0;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="460" y="511.25" width="26" height="78.75" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-26" value="class Files" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-29" value="类加载器子系统&lt;br&gt;class Loader" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-30" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rounded=0;shadow=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="135" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-37" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;shadow=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="185" width="30" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5uHw69AyfgSYUzVDefGn-40" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;rounded=0;shadow=0;fillColor=#FFFFFF;arrowWidth=0.2;arrowSize=0.06;" vertex="1" parent="1">
+          <mxGeometry x="510" y="185" width="20" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
